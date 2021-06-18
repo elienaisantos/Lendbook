@@ -1,0 +1,129 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+ul{
+	padding: 0px!important;
+}
+.menu-principal{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+main{
+	margin: 0 auto;
+	width: 980px;
+	position: relative;
+}
+.logo{
+	width: 70%;
+	float: left;
+	padding: 10px;
+	margin-left: -35px;
+}
+#social{
+	height: 30px;
+	width: 30px;
+}
+.redes-sociais ul li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+}
+.redes-sociais{
+	width: 25%;
+	float: right;
+}
+.header-2{
+	background-color: #ffffff;
+	width: 980px;
+	margin: 0 auto;
+	height: 50px;
+	padding: 10px;
+}
+.menu ul li{
+	display: inline-block;
+	color: #8b8b8b;
+	margin-left: 15px;
+	height: 50px;
+}
+.menu ul li a:hover {
+	color: #00bac6;
+	
+}
+.menu ul li:hover {
+	border-bottom: 3px solid #00bac6;
+}
+.menu ul li a{
+	color: #8b8b8b;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menu{
+	width: 70%;
+	float: left;
+}
+.busca{
+	text-align: center;
+	width: 30%;
+	float: right;
+}
+.busca input{
+	background-image: url('../img/search.png');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: right;
+	margin-top: 10px;
+	height: 30px;
+	width: 180px;
+}
+.col-1{
+	width: 100%;
+	height: 80px;
+	float: left;
+	position: relative;
+	border-bottom: 3px solid #efefef;
+}
+button.slick-prev{
+	font-size: 0px;
+	border: none;
+	background-color: transparent;
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	z-index: 9;
+	background-image: url('../img/esquerda.png');
+	top: 380%;
+    left: 0;
+}
+button.slick-next{
+	font-size: 0px;
+	border: none;
+	background-color: transparent;
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	z-index: 9;
+	background-image: url('../img/direita.png');
+	top: 380%;
+    right: 0;
+}
+
+.slider{
+	width: 100%;
+}
+
+ul.slick-dots li{
+	display: inline-block;
+	font-size: 0px;
+	border: 3px solid #ffffff;
+	border-radius: 50%;
+	width:20px;
+	height:20px;
+}
+ul.stick-dots li.slick-active{
+	background-color:#FFC93C;
+}
