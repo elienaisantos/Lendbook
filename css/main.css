@@ -97,7 +97,8 @@ button.slick-prev{
 	z-index: 9;
 	background-image: url('../img/esquerda.png');
 	top: 380%;
-    left: 0;
+    left: -20px;
+	cursor: pointer;
 }
 button.slick-next{
 	font-size: 0px;
@@ -109,21 +110,36 @@ button.slick-next{
 	z-index: 9;
 	background-image: url('../img/direita.png');
 	top: 380%;
-    right: 0;
+    right: -15px;
+	cursor: pointer;
 }
-
-.slider{
-	width: 100%;
+.slick-list {
+	width: 100%!important;
 }
-
-ul.slick-dots li{
-	display: inline-block;
-	font-size: 0px;
+.slick-initialized {
+	overflow: hidden;
+}
+.slick-dots li button {
+	font-size: 0%;
 	border: 3px solid #ffffff;
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
 	border-radius: 50%;
-	width:20px;
-	height:20px;
+	cursor: pointer;
 }
-ul.stick-dots li.slick-active{
-	background-color:#FFC93C;
+.slick-dots {
+	margin: 0 auto;
+	width: 10%;
+	position: absolute;
+	left: 47%;
+	top: 500px;
+}
+.slick-dots li {
+	display: inline-block;
+	padding: 05px;
+}
+li.slick-active button{
+	background-color: #39A2DB;
+
 }
