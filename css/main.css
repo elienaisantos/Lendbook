@@ -11,7 +11,7 @@ ul{
 	height: 60px;
 	background-color: black;
 }
-main, .content{
+main {
 	margin: 0 auto;
 	width: 980px;
 	position: relative;
@@ -66,10 +66,6 @@ main, .content{
 	width: 70%;
 	float: left;
 }
-.menu-urls {
-	height: 80px;
-	border-bottom: 3px solid #efefef;
-	}
 .busca{
 	text-align: center;
 	width: 30%;
@@ -88,6 +84,25 @@ main, .content{
 	width: 100%;
 	float: left;
 	position: relative;
+}
+.menu-urls{
+	border-bottom: 3px solid #efefef;
+	height: 80px;
+}
+.botao{
+	margin-top: -17%;
+	margin-left: 1%;
+	width: 125px;
+	height: 40px;
+	font-size: 15px;
+	background-color: #185ADB;
+	border-radius: 20px;
+	position: absolute;
+	border: none;
+}
+.botao:hover{
+	background-color: #ffffff;
+	color: #FFC107;
 }
 button.slick-prev{
 	font-size: 0px;
@@ -132,10 +147,10 @@ button.slick-next{
 }
 .slick-dots {
 	margin: 0 auto;
-	width: 10%;
-	position: absolute;
-	left: 47%;
-	top: 500px;
+    width: 15%;
+    position: absolute;
+    left: 47%;
+    top: 235px;
 }
 .slick-dots li {
 	display: inline-block;
@@ -145,4 +160,51 @@ li.slick-active button{
 	background-color: #39A2DB;
 
 }
-
+.slider a {
+	cursor: pointer;
+}
+.livro img{
+	width: 175px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+.descricao{
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+.bt-down{
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+/*HTML - QUEM SOMOS*/
+.quem-somos{
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	height: 400px;
+}
+.quem-somos h1 {
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	padding-left: 5px;
+}
+.quem-somos h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	padding-left: 5px;
+}
+.quem-somos p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-left: 5px;
+	text-align: justify;
+}
+/*Roda-pé*/
+footer{
+	width: 100%;
+}
