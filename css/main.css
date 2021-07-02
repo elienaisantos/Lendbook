@@ -208,3 +208,19 @@ li.slick-active button{
 footer{
 	width: 100%;
 }
+/*HTML - ACESSAR CONTA*/
+form#formulario {
+	padding: 70px 750px 0px 10px;
+}
+div#nome {
+	margin: 5px;
+}
+div#sobrenome {
+	margin: 5px;
+}
+div#email {
+	margin: 5px;
+}
+div#senha {
+	margin: 5px;
+}
