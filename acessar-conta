@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Lendbook.com</title>
+	<link rel="icon" type="imagem/png" href="img/icon.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+  <body>
+    <header class="menu-principal">
+		<main>
+			<div class="header-1">
+				<div class="logo">
+					<a href="index.html"><img src="img/new-logo.png" style="height: 60px;"></a>
+				</div>
+				<div class="redes-sociais">
+					<ul>
+						<li><a href="https://www.facebook.com/" target="_blank"><img id="social"
+									src="img/facebook.png"></a></li>
+						<li><a href="https://www.instagram.com/" target="_blank"><img id="social"
+									src="img/instagram.png"></a></li>
+						<li><a href="https://twitter.com/" target="_blank"><img id="social" src="img/twitter.png"></a>
+						</li>
+						<li><a href="https://www.whatsapp.com/" target="_blank"><img id="social"
+									src="img/whatsapp.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</header>
+    <br>
+    <main class="col-1 menu-urls">
+		<div class="header-2">
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="todos-os-livros.html">Todos os Livros</a></li>
+					<li><a href="">Novos</a></li>
+					<li><a href="">Pedidos</a></li>
+					<li><a href="quem-somos.html" aria-current="page">Quem Somos</a></li>
+					<li><a href="">Outros</a></li>
+					<li><a href="acessar-conta.html">Acessar</a></li>
+				</ul>
+			</div>
+			<div class="busca">
+				<input placeholder="Busque um título aqui" type="text">
+			</div>
+		</div>
+	</main>
+    <br>
+    <form id="formulario">
+        <div class="nome-sobrenome">
+            <div id="nome">
+                <label for="exampleInputEmail1">Nome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu nome">
+            </div>
+            <div id="sobrenome">
+                <label for="exampleInputPassword1">Sobrenome</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Seu sobrenome">
+            </div>
+        </div>
+        <div class="email-senha">
+            <div id="email">
+                <label for="exampleInputEmail1">Endereço de email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+            </div>
+            <div id="senha">
+                <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+            </div>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <footer id="rodape">
+		<img style="width: 100%;" src="img/footer.png">
+	</footer>
+  </body>
+
+</html>
