@@ -71,6 +71,9 @@ main {
 	width: 30%;
 	float: right;
 }
+.busca button{
+	cursor: pointer;
+}
 .busca input{
 	background-image: url('../img/search.png');
 	background-repeat: no-repeat;
@@ -175,6 +178,9 @@ li.slick-active button{
 	width: 980px;
 	margin: 0 auto;
 	position: relative;
+}
+.descricao p{
+	text-align: justify;
 }
 .bt-down{
 	margin-bottom: 5px;
