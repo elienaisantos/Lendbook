@@ -11,10 +11,15 @@ ul{
 	height: 60px;
 	background-color: black;
 }
-main, form {
+main{
 	margin: 0 auto;
 	width: 980px;
 	position: relative;
+}
+form{
+	margin: 0 auto;
+	width: 660px;
+	position: static;
 }
 .logo{
 	width: 70%;
@@ -218,6 +223,7 @@ footer{
 form#formulario {
 	padding: 10px;
 	margin-top: 95px;
+	margin-bottom: 90px;
 }
 div#nome {
 	margin: 5px;
@@ -226,8 +232,5 @@ div#sobrenome {
 	margin: 5px;
 }
 div#email {
-	margin: 5px;
-}
-div#senha {
 	margin: 5px;
 }

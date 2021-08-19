@@ -37,11 +37,11 @@
         <ul>
           <li><a href="index.html">Início</a></li>
           <li><a href="todos-os-livros.html">Todos os Livros</a></li>
-          <li><a href="">Novos</a></li>
-          <li><a href="">Pedidos</a></li>
+          <li><a href="" onclick="alerta()">Novos</a></li>
+          <li><a href="" onclick="alerta()">Pedidos</a></li>
           <li><a href="quem-somos.html" aria-current="page">Quem Somos</a></li>
-          <li><a href="">Outros</a></li>
-          <li><a href="acessar-conta.html">Acessar</a></li>
+          <li><a href="#">Outros</a></li>
+          <li><a href="login.html">Acessar</a></li>
         </ul>
       </div>
       <div class="busca">
@@ -51,15 +51,14 @@
   </main>
 
   <form id="formulario">
+    <h1>Fale conosco</h1>
+    <p>Deixe uma mensagem breve, entraremos em contato com você!
+    </p>
     <div class="nome-sobrenome">
       <div id="nome">
         <label for="exampleInputEmail1">Nome</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
           placeholder="Seu nome">
-      </div>
-      <div id="sobrenome">
-        <label for="exampleInputPassword1">Sobrenome</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Seu sobrenome">
       </div>
     </div>
     <div class="email-senha">
@@ -68,21 +67,23 @@
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
           placeholder="Seu email">
       </div>
-      <div id="senha">
-        <label for="exampleInputPassword1">Senha</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+      <div>
+        <label>Texto</label>
+        <input type="text" class="form-control" placeholder="100 Caracteres">
       </div>
     </div>
-    <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-    </div>
+    <br>
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 
   <footer id="rodape">
     <img style="width: 100%;" src="img/footer.png">
   </footer>
+  <script>
+    function alerta() {
+      window.alert("Em construção");
+    }
+  </script>
 </body>
 
 </html>

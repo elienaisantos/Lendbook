@@ -2,12 +2,18 @@
 <html>
 
 <head>
+	<link rel="stylesheet" href="js/main.js">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>Lendbook.com</title>
 	<link rel="icon" type="imagem/png" href="img/icon.png" />
 </head>
 
 <body>
+	<style>
+		.menu ul li {
+			margin-left: 40px;
+		}
+	</style>
 	<header class="menu-principal">
 		<main>
 			<div class="header-1">
@@ -31,20 +37,12 @@
 			<div class="menu">
 				<ul>
 					<li><a href="#" aria-current="page">Início</a></li>
-					<li><a href="todos-os-livros.html">Todos os Livros</a></li>
-					<li><a href="">Novos</a></li>
-					<li><a href="">Pedidos</a></li>
+					<li><a href="" onclick="alerta()">Novos</a></li>
+					<li><a href="" onclick="alerta()">Pedidos</a></li>
 					<li><a href="quem-somos.html">Quem Somos</a></li>
-					<li><a href="">Outros</a></li>
-					<li><a href="acessar-conta.html">Acessar</a></li>
+					<li><a href="outros.html">Outros</a></li>
+					<li><a href="login.html">Acessar</a></li>
 				</ul>
-			</div>
-			<div class="busca">
-				<input placeholder="Busque um titulo aqui" type="text">
-				<a href="not-found.html">
-					<button type="button"
-						style="border-radius: 10%; color: #ffffff; background-color: black;">Buscar</button>
-				</a>
 			</div>
 		</div>
 	</main>
@@ -52,7 +50,7 @@
 	<div class="slider">
 		<img style="width: 100%;" src="img/logo.jpg">
 		<div>
-			<a href="todos-os-livros.html"><button type="button" class="botao">Acessar</button></a>
+			<a href="login.html"><button type="button" class="botao">Acessar</button></a>
 		</div>
 	</div>
 
@@ -60,7 +58,11 @@
 		<img style="width: 100%;" src="img/footer.png">
 	</footer>
 
-
+	<script>
+		function alerta() {
+			window.alert("Em construção");
+		}
+	</script>
 </body>
 
 </html>
