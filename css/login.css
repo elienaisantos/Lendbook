@@ -22,9 +22,9 @@ input{
     font-size: 15px;
 }
 button{
+    width: 100%;
     display: inline-block;
     padding: 15px;
-    margin-left: 20px;
     background-color:blue;
     color: #ffffff;
     border: none;
@@ -34,7 +34,4 @@ button:hover{
     background-color: #ffffff;
     border: black;
     color: black;
-}
-#btn-1{
-    width: 80px;
 }

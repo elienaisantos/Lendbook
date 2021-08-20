@@ -16,7 +16,7 @@ main{
 	width: 980px;
 	position: relative;
 }
-form{
+form#formulario{
 	margin: 0 auto;
 	width: 660px;
 	position: static;

@@ -50,26 +50,26 @@
     </div>
   </main>
 
-  <form id="formulario">
+  <form id="formulario" action="#" method="POST">
     <h1>Fale conosco</h1>
     <p>Deixe uma mensagem breve, entraremos em contato com você!
     </p>
     <div class="nome-sobrenome">
       <div id="nome">
         <label for="exampleInputEmail1">Nome</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        <input type="email" class="form-control" id="nome" aria-describedby="emailHelp"
           placeholder="Seu nome">
       </div>
     </div>
     <div class="email-senha">
       <div id="email">
         <label for="exampleInputEmail1">Endereço de email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
           placeholder="Seu email">
       </div>
       <div>
         <label>Texto</label>
-        <input type="text" class="form-control" placeholder="100 Caracteres">
+        <input type="text" class="form-control" id="texto" placeholder="100 Caracteres">
       </div>
     </div>
     <br>
@@ -79,6 +79,7 @@
   <footer id="rodape">
     <img style="width: 100%;" src="img/footer.png">
   </footer>
+
   <script>
     function alerta() {
       window.alert("Em construção");

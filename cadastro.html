@@ -24,8 +24,8 @@
         }
 
         form {
-            width: 700px;
-            margin-left: 55px;
+            width: 600px;
+            margin-left: 15px;
         }
     </style>
     <header class="menu-principal">
@@ -48,16 +48,16 @@
 
     <div class="tela-login">
         <h1>Cadastro</h1>
-        <form action="">
-            <input type="text" placeholder="Nome">
+        <form action="cadastro.php" method="POST">
+            <input id="nome" type="text" placeholder="Nome">
             <br><br>
-            <input type="text" placeholder="Login">
+            <input id="login" type="text" placeholder="Login">
             <br><br>
-            <input type="password" placeholder="Senha">
+            <input id="senha" type="password" placeholder="Senha">
             <br><br>
+            <button type="submit">Enviar</button>
         </form>
-        <button id="btn-2">Enviar</button><button id="btn-2" onclick="history.go(-1)">Cancelar</button>
-
+            <button id="btn-2" onclick="history.go(-1)">Cancelar</button>
     </div>
 
     <footer>

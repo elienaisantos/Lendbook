@@ -37,13 +37,15 @@
     </header>
 
     <div class="tela-login">
-
-        <h1>Login</h1>
-        <input type="text" placeholder="Email">
-        <br><br>
-        <input type="password" placeholder="Senha">
-        <br><br>
-        <button id="btn-1">Login</button>
+        <form action="login.php" method="POST">
+            <h1>Login</h1>
+            <input type="text" id="login" placeholder="Email">
+            <br><br>
+            <input type="password" id="senha" placeholder="Senha">
+            <br><br>
+            <button type="submit" id="btn-1">Login</button>
+        </form>
+        <br>
         <a href="cadastro.html"><button id="btn-2">Cadastro</button></a>
     </div>
 </body>
